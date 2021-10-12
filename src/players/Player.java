@@ -1,3 +1,5 @@
+package players;
+
 public abstract class Player {
     protected final int level;
     protected int life;
@@ -17,6 +19,7 @@ public abstract class Player {
     protected int computeLifeMax (){
         return level * 5;
     }
+
     public int getLife() {
         return life;
     }

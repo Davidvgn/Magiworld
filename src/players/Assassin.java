@@ -1,18 +1,17 @@
-public class Rodeur extends Player{
+package players;
 
-    public Rodeur(int level, int life, int force, int agility, int intelligence) {
+public class Assassin extends Player {
+    protected Assassin(int level, int life, int force, int agility, int intelligence) {
         super(level, life, force, agility, intelligence);
     }
 
     @Override
     public int getBasicAttackDamages() {
-
-        return agility;
+        return 0;
     }
 
     @Override
     public int getSpecialAttackDamages() {
-        this.agility = agility + (level / 2);
         return 0;
     }
 }

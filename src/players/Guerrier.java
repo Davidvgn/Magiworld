@@ -1,4 +1,6 @@
-public class Guerrier extends Player{
+package players;
+
+public class Guerrier extends Player {
 
     public Guerrier(int level, int life, int force, int agility, int intelligence) {
         super(level, life, force, agility, intelligence);
